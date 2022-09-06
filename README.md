@@ -2,4 +2,4 @@
 
 ## Результат 
 
-[Моя первая работа](file:///Users/bestrustam/Documents/git/index.html)
+[Моя первая работа](https://znx8.github.io/git-c/)
