@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ddd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    line-height: 1.6em;
+    font-weight: normal;
+    
+}
+
+
+.card {
+    padding: 15px 20px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 19px;
+}
+
+.html {
+    background: #e37166;
+    color: white;
+}
+
+.css {
+    background: #0d2d4d;
+    color: white;
+}
+
+#header {
+    background: #eee;
+    padding: 10px;
+}
+
+.color-1 {
+    color: red;
+}
+
+#header {
+    color: #e37166;
+}
+
+.hobbi {
+    background-color: #FFB6C1;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    color: #663399;
+    text-decoration: none;
+    /* transition: all .2s; */
+}
+
+a:hover {
+    color: #e37166;
+    /* font-size: 2rem; */
+}
+/* 
+a:visited {
+    color: #0d2d4d;
+} */
+
+a:active {
+    color: aquamarine;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(4) {
+    color: #663399;
+}
+
+.table td:hover {
+    background: #FFB6C1;
+}
+
+.listhobbi {
+    padding: 0 20px;
+}
+
+.listhobbi li {
+    color: #4B0082;
+    margin-bottom: 8px;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-grup label {
+    display: block;
+    font-size: 14px;
+    color: #e37166;
+}
+
+.form-grup input, 
+.form-grup textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-row .form-grup {
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(50% - 20px);
+}
+
+.form-row .form-grup:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .avatar {
+        text-align: center;
+    }
+}
